@@ -1,4 +1,5 @@
-// import { Foter } from "./footer"
+
+import { Foter } from "./footer";
 
 const Home = () => {
   return (
@@ -24,11 +25,11 @@ const Home = () => {
               src="src\assets\profile.png"
               alt="bg-img"
             />
-           
           </div>
-          <div className=""></div>
         </div>
+        
       </div>
+      <Foter/>
     </>
   );
 };

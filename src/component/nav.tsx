@@ -34,10 +34,10 @@ import { NavLink } from "react-router-dom";
 
 export function Nav() {
   return (
-    <Navbar className="dark:bg-gray-700 ">
+    <Navbar className="dark:bg-gray-700 pt-3">
       <NavbarBrand>
       
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white p-3">Sujan Pokharel</span>
+        <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white p-1 ml-9">Sujan Pokharel</span>
       </NavbarBrand>
       <div className="flex md:order-2">
         <Button className="text-white bg-green-300 dark:bg-green-500 hover:dark:bg-green-300 hover:text-white font-bold">Hire Now!</Button>
